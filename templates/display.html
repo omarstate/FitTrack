@@ -1,0 +1,28 @@
+
+{% extends "layout2.html" %}
+
+{% block main %}
+
+<table class="table table-bordered table-dark table-hover">
+    <thead>
+        <tr>
+            <td>Exercise</td>
+            <td>Reps</td>
+            <td>Weights</td>
+        </tr>
+
+    </thead>
+    <tbody>
+        {% for data in data %}
+            <tr>
+                <td>{{ data["exercise_name"] }}</td>
+                <td>{{ data["reps"] }}</td>
+                <td>{{ data["weight"] }}</td>
+            </tr>
+            {% endfor %}
+
+            </tbody>
+            </table>
+
+
+{% endblock %}

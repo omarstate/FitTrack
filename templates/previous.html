@@ -1,0 +1,34 @@
+{% extends "layout2.html" %}
+
+{% block main %}
+
+
+<h1 style="text-decoration-line: underline;">Previous Sessions</h1>
+<table class="table table-bordered table-dark table-hover">
+    <thead>
+        <tr>
+            <td>Date</td>
+            <td>Time</td>
+            <td>Muscle Group</td>
+        </tr>
+
+    </thead>
+    <tbody>
+        {% for data in data %}
+        <tr>
+        <td>
+            <form action="/display" method="post">
+                <input name="id" type="hidden" value="{{ data.session_id }}">
+                <button type="submit" class="prev_table">{{ data["date"] }}</button></td>
+            </form>
+
+        <td>{{ data["start_time"] }}</td>
+        <td>{{ data["workout_type"] }}</td>
+
+        {% endfor %}
+        </tr>
+            </tbody>
+            </table>
+
+
+{% endblock %}

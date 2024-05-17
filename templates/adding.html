@@ -1,0 +1,21 @@
+{% extends "layout2.html" %}
+
+{% block main %}
+
+<div class="container">
+    <h2>Add New Exercise</h2>
+
+    <form action="/add" method="post">
+        <label for="exercise_name">Exercise Name:</label>
+        <input type="text" id="exercise_name" name="exercise_name" required>
+        <label for="muscle_group">Muscle Group:</label>
+        <select name="musclegroup" id="musclegroup" required>
+            <option disabled selected>Select the Muscle Group</option>
+            {% for group in groups %}
+              <option value="{{ group }}">{{ group }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit" id="adding_button">Add Exercise</button>
+    </form>
+
+{% endblock %}

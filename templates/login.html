@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <form action="/login" method="post" class="login">
+          <div class="login-container">
+            <h1>Welcome to FitTrack</h1>
+            <form>
+              <div class="input-container">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+              </div>
+              <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+              </div>
+              <button type="submit">Login</button>
+            </form>
+            <div class="signup-link">
+              Don't have an account? <a href="/register">Sign up</a>
+            </div>
+          </div>
+    </form>
+{% endblock %}

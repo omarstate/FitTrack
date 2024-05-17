@@ -1,0 +1,393 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #FF5677;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #00cc66;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('white-bg.jpg');
+    background-size: cover; /* This ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed as you scroll */
+    background-color: #0066ff;
+
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #A8DF8E;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Apply styling to the login container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #00cc66;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Style the input container and labels */
+  .input-container {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  /* Style the login button */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Style the signup link */
+  .signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+/* Apply styling to the registration container */
+.registration-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #A8DF8E;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  /* Style the input container and labels */
+  .input-container {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  /* Style the registration button */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Style the login link */
+  .login-link {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+
+  .colorful-button {
+    background-color: #00cc66; /* Set the color using hexadecimal, RGB, HSL, or color names */
+    color: #fff; /* Set the text color for better contrast */
+    padding: 10px 20px; /* Optional: Adjust padding to make the button more visually appealing */
+    border: none; /* Optional: Remove the default button border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  .colorful-button2 {
+    background-color: #e60000; /* Set the color using hexadecimal, RGB, HSL, or color names */
+    color: #fff; /* Set the text color for better contrast */
+    padding: 10px 20px; /* Optional: Adjust padding to make the button more visually appealing */
+    border: none; /* Optional: Remove the default button border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+
+  .button-container {
+    text-align: center; /* Center the buttons within the container */
+  }
+
+  .big-button {
+    width: 200px; /* Set the width of the button */
+    height: 150px; /* Set the height of the button */
+    background-color: #00cc66; /* Example background color */
+    border: none; /* Remove the default button border */
+    border-radius: 8px; /* Add rounded corners for a more polished look */
+    display: inline-block; /* Set buttons to display inline */
+    margin: 10px; /* Add margin for spacing between buttons */
+    color: white; /* Set text color */
+    font-size: 1.2em; /* Adjust text size */
+    transition: background-color 0.3s; /* Smooth transition for the hover effect */
+    /* Hover effect */
+    cursor: pointer;
+
+  }
+
+  .big-button:hover {
+    background-color: black; /* New background color on hover */
+  }
+
+
+  #adding_button {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #00cc66;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #adding_button:hover {
+    background-color: #006633;
+  }
+
+
+  .active_form {
+    width: 35%;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: #00cc66;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 60px;
+  }
+
+
+  #Ending_button {
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+
+  #Ending_button:hover {
+    background-color: #800000;
+  }
+
+
+  .prev_table {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #00cc66;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+  .profile-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+  }
+
+  .profile-header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .profile-avatar {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .profile-info {
+    padding: 20px;
+  }
+
+  .info-item {
+    margin-bottom: 15px;
+  }
+
+  .info-label {
+    color: #555;
+    font-weight: bold;
+  }
+
+  .info-value {
+    color: #333;
+  }
+
+  .profile_all {
+    font-family: 'Poppins', sans-serif;
+      background-color: #00b8e6;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      border-radius: 100px;
+      box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+
+  }

@@ -1,0 +1,29 @@
+{% extends "layout2.html" %}
+
+{% block main %}
+  <h1>Your fitness adventure continues! Welcome back to FitTrack.</h1>
+
+  <div class="button-container">
+  <form action="/new_session">
+    <button type="submit" class="big-button">
+      <!-- You can place an image or text here -->
+      START A NEW SESSION
+    </button>
+    </form>
+    <br>
+    <form action="/add">
+    <button class="big-button">
+      <!-- You can place an image or text here -->
+      ADD NEW EXERCISES
+    </button>
+    </form>
+    <br>
+    <form action="/previous">
+      <button class="big-button">
+        <!-- You can place an image or text here -->
+        VIEW PREVIOUS SESSIONS
+      </button>
+    </form>
+    <br>
+    </div>
+{% endblock %}
